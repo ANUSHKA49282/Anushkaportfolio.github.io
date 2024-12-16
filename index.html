@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka Sunke Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(7, 7, 48);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 178);
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+            font-size: 1.2rem;
+        }
+        nav ul li a:hover {
+            color: rgb(128, 62, 194);
+        }
+        .left {
+            font-size: 1.8rem;
+        }
+        .first {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 10%;
+        }
+        .first div {
+            width: 45%;
+        }
+        .left-section {
+            font-size: 2.5rem;
+        }
+        .purple {
+            color: rgb(184, 152, 214);
+        }
+        .right-section img {
+            width: 100%;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin: 20px 0;
+            text-align: center;
+        }
+        hr {
+            border: 1px solid white;
+            margin: 20px 0;
+        }
+        .about, .experience, .contact {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .about p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+        .experience ul {
+            list-style: none;
+            padding: 0;
+        }
+        .experience ul li {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+        .experience ul li img {
+            width: 150px;
+            margin-right: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact input, .contact textarea, .contact button {
+            width: 70%;
+            margin: 10px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact input, .contact textarea {
+            background-color: rgb(20, 20, 70);
+            color: white;
+            font-size: 1rem;
+        }
+        .contact textarea {
+            height: 100px;
+        }
+        .contact button {
+            background-color: rgb(128, 62, 194);
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: rgb(155, 80, 214);
+        }
+        .experience ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.experience ul li {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience ul li a {
+    display: flex; 
+    align-items: center;
+    text-decoration: none; 
+    color: white;
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+.experience ul li img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px; 
+}
+#element {
+            color: rgb(184, 152, 214);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">Anushka Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- Home Section -->
+    <section id="home" class="first">
+        <div class="left-section">
+            Hello Everyone, My name is <span class="purple">Anushka</span>. I am a 
+            <span id="element"></span>
+        </div>
+        <div class="right-section">
+            <img src="https://drive.google.com/thumbnail?id=1DYGTJ5Ny-hQTAs-TehiBBN-r7Z2ld6VV" alt="Developer">
+            
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <hr>
+        <h1 class="section-title">ABOUT ME</h1>
+        <p>Hi, I'm S. Anushka! I'm currently a B.Tech 2nd-year student at VIT-AP University, passionate about learning and growing through hands-on projects.<br>
+        My primary interests lie in backend development and machine learning, where I enjoy combining technical knowledge with creativity to solve real-world problems.<br>
+        I'm also exploring web development and am always open to collaborating on exciting project ideas. Let's connect and build something amazing together!</p>
+        <hr>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h1 class="section-title">Projects</h1>
+        <ul>
+            <li>
+                <a href="https://anushka49282.github.io/Ecowattweb.github.io/" target="_blank">
+                    <img src="https://drive.google.com/thumbnail?id=1v9nhNKI4Pc8lxtuE_C5o3XQ8lqIrgMp6" alt="ECOWATT"> ECOWATT
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ANUSHKA49282/FLAPPY-BIRD" target="_blank">
+                    <img src="https://drive.google.com/thumbnail?id=1HL2l3vJp5gGsh2pi3OIcpLcxOkjDUM-0" alt="Flappy Bird"> Flappy Bird
+                </a>
+            </li>
+        </ul>
+        <hr>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h1 class="section-title">Contact Me</h1>
+        <form action="https://formspree.io/f/{your_form_id}" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ["Web Developer", "Video Editor", "Full Stack Developer."],
+      typeSpeed: 50,
+    });
+</script>
+</body>
+</html>
